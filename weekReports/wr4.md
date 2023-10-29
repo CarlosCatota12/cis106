@@ -24,7 +24,7 @@ course: cis106
 ## All the commands for navigating the filesystem:
 | Command | What it does                                                                                         | Syntax                                 | Example                 |
 | ------- | ---------------------------------------------------------------------------------------------------- | -------------------------------------- | ----------------------- |
-| ls      | used foe viewing the content of a directory and for viewing details about the files and directories. | `ls` + `option` + `` directory to list | `ls -a ~/Downloads`     |
+| ls      | used foe viewing the content of a directory and for viewing details about the files and directories. | `ls` + `option` + `` directory to list`` | `ls -a ~/Downloads`     |
 | cd      | change the current working directory                                                                 | `cd` + `destination`                   | `cd /home/$USER/Music/` |
 | pwd     | display the current working directory                                                                | `pwd`                                  |`pwd`                   |
 
