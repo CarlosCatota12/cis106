@@ -15,5 +15,5 @@ Course: CIS 106 Linux Fundamentals
 ## Question 4
 ![q4](q4.png)
 ## Question 5
+![q5](q5.png)
 ![q5](cq.2.png)
-![q5](cq.1.png)
