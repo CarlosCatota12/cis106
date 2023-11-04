@@ -65,13 +65,13 @@ course: cis106
   ***cp ~/Music/trap.mp3 ~/cis.106/***
 
   ## Practice1 
-  ![1](wr5/practice1.png)
+  ![1](practice1.png)
   ## Practice2 
-  ![2](wr5/practice%202.png)
+  ![2](practice%202.png)
   ## Practice3
-  ![3](wr5/practice3.1.png)
-  ![3.2](wr5/practice3.2.png)
-  ![3.3](wr5/practice3.3.png)
+  ![3](practice3.1.png)
+  ![3.2](practice3.2.png)
+  ![3.3](practice3.3.png)
   ## Practice4
-  ![4](wr5/practice4.png)
+  ![4](practice4.png)
 
