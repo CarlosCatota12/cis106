@@ -22,6 +22,22 @@ course: cis106
 
 ## What are some different web server applications?
   * Web servers are used to process and manage HTTp requests and responses from the client system, but it also perform other functions as: store and protect website data, control bandwidth to regulate network traffic,server-side web scripting and virtual hosting.
+  
+| Application Name              | license                  | Project's Website                   |
+| ----------------------------- | ------------------------ | ----------------------------------- |
+| Nginx                         | Simplified BSD License.​  | [Nginx](https://www.nginx.com/)     |
+| Apache                        | Apache License 2.0       | [Apache](https://httpd.apache.org/) |
+| Internet Information Services | Part of Windows NT       | [IIS](https://www.iis.net/)         |
+
+### Nginx
+Nginx is a lightweight, high-performance web/proxy server and a proxy for email protocols.​​ It is free and open source software, licensed under the simplified BSD License; there is also a commercial version distributed under the name Nginx Plus.
+
+### Apache 
+The Apache HTTP Server is a free and open-source cross-platform web server software, released under the terms of Apache License 2.0. It is developed and maintained by a community of developers under the auspices of the Apache Software Foundation
+
+### IIS
+Internet Information Services or IIS is a web server and a set of services for Microsoft Windows operating system. It was originally part of the Windows NT Option Pack.
+
 ## What is virtualization?
   * Virtualization is a technology that allows you to create multiple simulated environments or dedicated resources from a single, physical hardware system. 
 ## What is virtualbox?
