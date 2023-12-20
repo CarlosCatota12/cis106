@@ -18,7 +18,9 @@ awk used for processing and displaying text
 *awk + options + {awk command} + file + file to save*
   
 awk '{print $2,$3}' ~/Documents/Books/bible.txt
+
 awk 'NR > 5 {print}' ~/Documents/Books?dracula.txt
+
 awk '{print $NF}' ~/Documents/homework.txt 
 
 
@@ -28,7 +30,9 @@ cat is used fos displaying the content of a file
 *cat + option + File to display*
 
 cat -n bible.txt
+
 cat -bn dracula.txt bible.txt
+
 cat -s bible.txt
 
 ### cp
@@ -37,7 +41,9 @@ cp c0pies files/directories from a source to a destination
 *cp + files to copy + destination*
 
 cp Downloads/cars.txt Documents/
+
 cp -r cis106/ Documents/Linux/
+
 cp Downloads/* ~/pictures/
 
 ### cut
@@ -46,7 +52,9 @@ cut extract a specific section of each line of a file and displaying it to the s
 *cut + option + file*
   
 cut -b 1-10 bible.txt
+
 cut -d ':' -f1,7 --output-delimiter=',' /etc/passwd
+
 cut -d ':' --complement -s -f5 /etc/passwd/
 
 
@@ -57,7 +65,9 @@ grep is used to search text in given file.
 *grep + option + search criteria + file*
 
 grep -c bin/bash /etc/passwd
+
 grep amen ~/Documents/Books/bible.txt
+
 grep -in 'dracula' ~/Documents/Books/dracula.txt
 
 ### head
@@ -66,7 +76,9 @@ by default prints 10 lines
 *head + option + file*
 
 head ~/Documents/books/bible.txt
+
 head -5 bible.txt 
+
 head dracula.txt
 
 
@@ -76,7 +88,9 @@ head dracula.txt
 *ls + option + directory to list*
 
 ls -al /Downloads 
+
 ls -Ggh
+
 ls -l --time-style=iso
 
 
@@ -86,7 +100,9 @@ mas describe commands, linux shell, executable programs, etc
 *man + comman*
 
 man ls
+
 man pwd
+
 man vim
 
 ### mkdir
@@ -96,7 +112,9 @@ man vim
 -mkdir is used for create directories
 
 mkdir ~/Downloads/games
+
 mkdir -p ~/Wallpapers/Principal/cars
+
 mkdir downloads/games wallpapers/cars music/rap
 
 
@@ -108,7 +126,9 @@ mkdir downloads/games wallpapers/cars music/rap
 *mv + file/directory to rename + new name*
 
 mv Downloads/file1.txt Documents/
+
 mv cars.txt toyota.txt
+
 mv Downloads/file1.txt Downloads/file2.txt Documents/
 
 
@@ -119,7 +139,9 @@ tac is used for displaying the content of a file in reverse mode
 *tac + option + file*
 
 tac -n bible.txt
+
 tac -bn dracula.txt bible.txt
+
 tac -s bible.txt
 
 
@@ -129,7 +151,9 @@ tail is used for displaying the last 10 lines of a file
 *tail + option + file*
 
 tail ~/Documents/books/bible.txt
+
 tail -5 bible.txt 
+
 tail dracula.txt
 
 
@@ -140,7 +164,9 @@ tail dracula.txt
 -touch is used for creating files
 
 touch Downloads/cars.txt Music/rap.mp3
+
 touch ~/Videos/carlos.mp4
+
 touch "carlos 9.txt"
 
 
@@ -151,7 +177,9 @@ tr is used for translating or deleting characters from standard output
 *standard output | tr + option + set + set*
 
 cat file.txt | tr '.' ','
+
 cat /etc/passwd | tr ':' '/'
+
 cat bible.txt | tr "[:space:]" '\t'
 
 
@@ -163,7 +191,9 @@ used for displaying the directory structure of a file system in a tree-like form
 *tree + option + Directory*
 
 tree -a Documents/
+
 tree -d Documents/
+
 tree ~/Music/
 
 ### How to work with multiple terminals open?
